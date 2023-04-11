@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light">
+
+    <TableRow
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/tablolevelorta2">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/ort4"
+            android:text="4"
+            android:background="@android:drawable/btn_star_big_on" />
+
+        <Button
+            android:text="5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/ort5"
+            android:background="@android:drawable/btn_star_big_on" />
+
+        <Button
+            android:text="6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/ort6"
+            android:background="@android:drawable/btn_star_big_on" />
+
+        <Button
+            android:text="7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/tableRow4"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="39dp"
+            android:id="@+id/ort7"
+            android:background="@android:drawable/btn_star_big_on" />
+
+    </TableRow>
+
+    <TextView
+        android:text="LEVEL ORTA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textzor"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TableRow
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="58dp"
+        android:layout_below="@+id/textzor"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tablolevelorta1">
+
+        <Button
+            android:text="1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/ort1"
+            android:background="@android:drawable/btn_star_big_on" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/ort2"
+            android:text="2"
+            android:background="@android:drawable/btn_star_big_on" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/ort3"
+            android:text="3"
+            android:background="@android:drawable/btn_star_big_on" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="69dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/tableRow"
+        android:layout_marginStart="19dp"
+        android:id="@+id/tablolevelorta3">
+
+        <Button
+            android:text="8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/tableRow4"
+            android:layout_alignStart="@+id/tableRow3"
+            android:layout_marginStart="28dp"
+            android:id="@+id/ort8"
+            android:background="@android:drawable/btn_star_big_on" />
+
+        <Button
+            android:text="9"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/ort9"
+            android:background="@android:drawable/btn_star_big_on" />
+
+        <Button
+            android:text="10"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/ort10"
+            android:background="@android:drawable/btn_star_big_on" />
+    </TableRow>
+
+</RelativeLayout>
+
+

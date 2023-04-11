@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent">
+
+    <Button
+        android:text="KOLAY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:id="@+id/kolay"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_orange_dark" />
+
+    <Button
+        android:text="ORTA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/orta"
+        android:layout_below="@+id/kolay"
+        android:layout_alignStart="@+id/kolay"
+        android:layout_marginTop="43dp"
+        android:background="@android:color/holo_orange_dark" />
+
+    <Button
+        android:text="ZOR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:id="@+id/zor"
+        android:layout_below="@+id/orta"
+        android:layout_alignStart="@+id/orta"
+        android:background="@android:color/holo_orange_dark" />
+</RelativeLayout>
